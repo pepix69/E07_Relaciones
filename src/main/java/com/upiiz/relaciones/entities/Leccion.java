@@ -22,6 +22,6 @@ public class Leccion {
 
     // Tutor tiene muchos estudientes
     @ManyToOne(targetEntity = Curso.class)
-    private List<Curso> curso;
+    private Curso curso;
 
 }
