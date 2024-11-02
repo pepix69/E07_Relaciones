@@ -10,8 +10,8 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/v1/estudientes")
-public class EstudienteController {
+@RequestMapping("/api/v1/estudiantes")
+public class EstudianteController {
 
     @Autowired
     EstudianteService cursoService;
